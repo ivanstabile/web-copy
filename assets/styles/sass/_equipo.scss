@@ -1,0 +1,75 @@
+.container-equipo{
+    margin-top: 50px;
+    h2{
+        font-style: normal;
+         font-weight: bold;
+         font-size: 34px;
+        line-height: 40px;
+    }
+    .equipo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        .miembros{
+            height: 400px;
+            width: 400px;
+            padding-top:20px ;
+            margin-top: 50px;
+            margin-left: 20px;
+            .equipo-img-titulo{
+                text-align: center;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+                margin-top: 24px;
+            }
+            .equipo-rol{
+                 padding-bottom: 24px;
+                 text-align: center;
+                 color: #000000;
+                 font-family: Raleway;
+                 font-style: normal;
+                 font-weight: normal;
+                 font-size: 11px;
+                 line-height: 13px;
+            }
+        }
+    }
+    .colaboradores{
+        margin-top: -50px;
+        .colaboradores-hijo{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            flex-wrap: nowrap;
+            .colaborador-miembro{
+                height: 400px;
+                width: 400px;
+                margin-top: 50px;
+                margin-left: 20px;
+                    .colaborador-img-titulo{
+                        text-align: center;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 20px;
+                        margin-top: 24px;
+                    }
+                    .colaborador-rol{
+                        padding-bottom: 24px;
+                        text-align: center;
+                        color: #000000;
+                        font-family: Raleway;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 11px;
+                        line-height: 13px;
+                    }
+            }
+        }
+    }
+}

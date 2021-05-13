@@ -1,0 +1,19 @@
+@import "nav";
+@import "hero";
+@import "mision_cards";
+@import "estrategias";
+@import "elementos";
+@import "equipo";
+@import "footer";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    background: rgb(252, 252, 252);
+    font-size: 1rem;
+    font-family: "raleway", sans-serif;
+}

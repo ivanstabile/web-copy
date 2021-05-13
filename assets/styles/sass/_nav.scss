@@ -1,0 +1,45 @@
+.nav-container{
+    background: white;
+    position: fixed;
+    z-index: 1;
+    .navbar{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        .navbar-brand{
+            margin-right: 20px;
+        }
+            .navbar-nav{
+                padding: 1.5rem 0 1.5rem 0;
+                .nav-link{
+                    align-self: center;
+                    color: #000000;
+                    font-family: Raleway;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 16px;
+                }
+                .btn-unete{
+                    font-size: 1rem;
+                    width: auto;
+                    padding-right: 15px;
+                    padding-left: 15px;
+                    margin-left: 20px;
+                    border-radius: 50px;
+                    line-height: 24px;
+                    .fa-arrow-right{
+                        width: 1rem;
+                        color: rgb(230, 230, 230);
+                    }
+                }
+                .btn-unete:hover{
+                    background: rgb(29, 29, 29);
+                }
+                .blocked{
+                    display: none;
+                }
+            }
+    }
+    
+}

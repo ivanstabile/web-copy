@@ -1,0 +1,62 @@
+.estrategias__padre{
+    background-color: #1CABE2;
+    color: white;
+    .estrategias-contenido{
+        margin-bottom: 150px;
+        padding-top: 50px;
+        text-align: left;
+        h2{
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+        }
+        p{
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    }
+}
+
+.areas__estrategicas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+    margin-top: -150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+    background: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 6px 3px 26px 0px rgba(153,153,153,0.75);
+    -webkit-box-shadow: 6px 3px 26px 0px rgba(153,153,153,0.75);
+    -moz-box-shadow: 6px 3px 26px 0px rgba(153,153,153,0.75);
+    .estrategias-cards{
+        display: flex;
+        flex-direction: column;
+       .row{
+           width: 100%;
+           margin: 20px auto 0 auto;
+           .columnas{
+               width: 230px;
+           }
+        h6{
+            color: #1CABE2;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 120%;
+        }
+        p{
+            padding: 0px 20px 0px 8px;
+            color: #2D2926;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+        }
+       }
+    }
+}

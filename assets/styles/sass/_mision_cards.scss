@@ -1,0 +1,28 @@
+.mision_cards{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    .card{
+        width: 335px;
+        height: 336px;
+        border: none;
+        border-radius: 20px;
+        img{
+            max-height: 140px;
+        }
+        h6{
+            color: #1CABE2;
+            font-weight: 600;
+            font-size: 11px;
+            line-height: 120%;
+            margin: 15px;
+        }
+        p{
+            font-size: .9rem;
+            margin: 15px;
+        }
+    }
+}

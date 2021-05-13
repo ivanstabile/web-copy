@@ -1,0 +1,57 @@
+.footer{
+    background-image: url("../../imgs/fondoFooterDesktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 100px;
+    .footer-flex{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        .col-footer{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 0 auto;
+            flex: 2;
+            .col-footer-ul{
+                h4{
+                    color: rgb(218, 218, 218);
+                    font-size: 1rem;
+                }
+                li{
+                    padding: 10px;
+                    a{
+                        color: white;
+                        font-size: .9rem;
+                        text-decoration: none;
+                    }
+                    a:hover{
+                        color: rgb(226, 226, 226);
+                    }
+                }
+            }
+        }
+        .footer-redes{
+            display: flex;
+            flex-direction: column;
+            color: white;
+            align-items: center;
+            margin: 50px;
+            h5{
+                font-size: 1.5rem;
+            }
+            .footer-ul{
+                display: flex;
+                li{
+                    padding: 10px;
+                    a{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
